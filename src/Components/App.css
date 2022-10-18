@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family:'Aldrich', sans-serif;
+    background-color: #202023;
+}
+
+/* Navbar CSS START */
+
+.navBar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    color: #00FFF0;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 50px;
+    z-index: 9999;
+    list-style: none;
+}
+
+.defaultNavBar ul{
+    position: absolute;
+    right: 5%;
+    line-height: 0;
+}
+
+.defaultNavBar li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.defaultNavBar{
+    display: block;
+}
+
+.mobileNavBar{
+   display: none; 
+
+   
+}
+
+@media (max-width: 990px){
+    .defaultNavBar{
+        display: none;
+    }
+
+    .mobileNavBar{
+        display: flex;
+        align-items: center;
+
+    }
+
+    .mobileNavBar .hamburger{
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+
+    .mobileNavBar li{
+        list-style: none;
+        cursor: pointer;
+        display: inline-block;
+        padding-left: 5%;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .mobileNavBar ul{
+        display: flex;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.4);
+        
+        top: 50px;
+        right: 0px;
+        width: 100%;
+        
+    } 
+}
+
+/* NavBar CSS END */
+    
+/* Landing CSS START */
+
+.landing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1000px;
+}
+
+.myFace{
+    align-self: center;
+}
+
+.myFace img{
+    align-self: center;
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.helloMsg{
+    color: white;
+    text-align: center;
+}
+
+.Typewriter{
+    color:#00FFF0
+}
+
+.diagonal-line{
+    margin-top: 100px;
+    background-color: #2f2f33;
+    height: 220px;
+    transform: skewY(-20deg);   
+    margin-bottom: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.middle-line{
+    margin-top: 100px;
+    height: 10px;
+    border-top: dotted 3px white;
+    border-bottom: dotted 3px white;
+}
+
+.diagonal-line img{
+    position: absolute;
+}
+
+#topCar1{
+    margin-left: 100px;
+}
+#topCar2{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+#topCar3{
+    margin-left: 650px;
+    margin-top: 15px;
+}
+#topCar4{
+    margin-left: 900px;
+}
+#topCar5{
+    margin-left: 1050px;
+    margin-top: 35px;
+}
+#topCar6{
+    margin-left: 1300px;
+}
+#topCar7{
+    margin-left: 1600px;
+    margin-top: 15px;
+}
+#topCar8{
+    margin-left: 1800px;
+    margin-top: 35px;
+}
+.bottom-car img{
+    transform: rotate(180deg);
+}
+
+#bottomCar1{
+    margin-left: 150px;
+    margin-top: 120px;
+}
+#bottomCar2{
+    margin-left: 450px;
+    margin-top: 150px;
+}
+#bottomCar3{
+    margin-left: 670px;
+    margin-top: 110px;
+}
+#bottomCar4{
+    margin-left: 860px;
+    margin-top: 150px;
+}
+#bottomCar5{
+    margin-left: 1100px;
+    margin-top: 130px;
+}
+#bottomCar6{
+    margin-left: 1300px;
+    margin-top: 150px;
+}
+#bottomCar7{
+    margin-left: 1550px;
+    margin-top: 100px;
+}
+#bottomCar8{
+    margin-left: 1750px;
+    margin-top: 130px;
+}
+
+/* Landing CSS END */
+
+/* About CSS START */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutInfo{
+    margin-top: 40px;
+    border: solid 2px black;
+}
+
+.about h2{
+    margin-top: 50px;
+    font-size: 28px;
+    color: #00FFF0;
+}
+
+.infoTxt{
+    width: 400px;
+    font-size: 20px;
+    color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.about ul li::before{
+    left: 25px;
+    bottom: -4px;
+    content: url(./Images/f1_SoftSmall.png);
+}
+
+.about ul{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 20px 0px 20px;
+    overflow: hidden;
+    list-style: none;
+}
+
+.about li{
+    color: #00FFF0;
+    position: relative;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+/* About CSS END */
+
+/* Works CSS START */
+.worksHeader{
+    margin-top: 150px;
+    text-align: center;
+    background-color: #404040 ;
+    color: white;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.worksHeader h2{
+    color: #00FFF0;;
+    padding-top: 5px;
+}
+
+.worksHeader h3{
+    margin-top: 15px;
+}
+
+.works{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+}
+
+.item1{
+    background-image:url("./Images/Formulalytics.jpg");
+    background-size: 100% 100%;
+    width: 800px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.item2{
+    background-size: 100% 100%;
+    width: 800px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("./Images/Scandi-Ice-Cream.jpg");
+}
+
+
+/* Animation to fade in information on hover */
+@keyframes fade{
+  0%{opacity: 0.3 ;}
+  100%{opacity: 1;}
+}
+
+.item1:hover{
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./Images/Formulalytics.jpg");
+animation: fade;
+animation-duration: 3s;
+}
+
+.item2:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./Images/Scandi-Ice-Cream.jpg");
+    animation: fade;
+    animation-duration: 3s;
+    }
+
+.item1:hover .fade-info{
+    display: block;
+}
+
+.item2:hover .fade-info{
+    display: block;
+}
+
+/* Info being displayed on hover */
+.fade-info{
+    display: none;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fade-info h2{
+    color: #00FFF0;
+}
+
+.fade-info p{
+    margin-top: 30px;
+}
+
+
+.gitLink{
+    width: 24px;
+    margin-right: 5px;
+}
+
+.gitLink:hover{
+    cursor: pointer;
+    filter: brightness(30%);
+}
+
+.webLink{
+    width: 24px;
+    margin-left: 5px;
+}
+
+.webLink:hover{
+    cursor: pointer;
+    filter: brightness(30%);
+}
+
+
+/* Works CSS END */
+
+/* Contact CSS START */
+
+.contact{
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.contact h2{
+    color: #00FFF0;
+}
+
+.contact .links{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact .links p{
+    margin-bottom: 20px;
+}
+
+.contact .links a{
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #00FFF0;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #343434;
+    border: solid 1px #00FFF0;
+    border-radius: 5px;
+}
+
+.contact .links a:hover{
+    background-color: #404040;
+}
+
+.socials{
+    margin-top: 20px;
+}
+
+.socials img{
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 0px 10px 0 10px;
+}
+
+
+@keyframes rotate{
+    0% {transform: rotate(0deg);}
+    12.5% {transform: rotate(45deg);}
+    25% {transform: rotate(90deg);}
+    37.5% {transform: rotate(135deg);}
+    50% {transform: rotate(180deg);}
+    62.5% {transform: rotate(225deg);}
+    75% {transform: rotate(270deg);}
+    87.5% {transform: rotate(315deg);}
+    100% {transform: rotate(360deg);}
+
+}
+#gitHub:hover{
+    animation-name: rotate;
+    animation-duration: 0.5s;
+    filter: contrast(0%);
+}
+
+#linkedIn:hover{
+    animation-name: rotate;
+    animation-duration: 0.5s;
+    filter: contrast(0%);
+}
+/* Contact CSS END */
+@media (max-width: 810px) {
+    .works{
+        flex-direction: column;
+        height: 840px ;
+    }
+    .item1{
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./Images/Formulalytics.jpg");
+        width: 100%;
+        height: 400px;
+        margin: 0px;
+    }
+    .item2{
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./Images/Formulalytics.jpg");
+        width: 100%;
+        height: 400px;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .fade-info{
+        display: block;
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .item1:hover{
+        animation: none;
+        }
+        
+    .item2:hover{
+        animation: none;
+        }
+}
+
+
+
+@media (max-width: 420px) {
+    /* about section css */
+    .aboutInfo{
+        width: 355px;
+    }
+
+    .infoTxt{
+        width: 325px;
+    }
+
+    .about ul li::before{
+        left: 10px;
+    }
+    /* END about section CSS */
+}
+
+

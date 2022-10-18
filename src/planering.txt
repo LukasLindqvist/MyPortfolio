@@ -1,0 +1,5 @@
+1. API baserad hemsida (t.ex f1 sidan jag tänkte göra)
+2. broschyr hemsida (Landing page, contact page, speciall inriktad tab baserad på hemside tema), (Glass stånd eller restaurang?? ) Ska se så visuellt bra ut som möjligt
+3. e-handel hemsida. (Varukorg, köpa varor, confirmation mail till användare)
+4. Portfolio sida. (CV, tidigare projekt, info om mig, språk)
+5. Litet spel (schack, 3 i rad, checkers)(multiplayer version)
