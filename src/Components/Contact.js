@@ -1,5 +1,4 @@
 import React from 'react'
-import test from '../planering.txt'
 import gitHub from './Images/GitHubLogo.svg'
 import linkedIn from './Images/LinkedIn.svg'
 import CV from '../CV.docx'
