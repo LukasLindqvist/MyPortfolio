@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.1a3d167e.css",
+    "main.js": "/MyPortfolio/static/js/main.72d38e26.js",
+    "static/media/CV.docx": "/MyPortfolio/static/media/CV.689eade853fbc66c7f79.docx",
+    "static/media/Scandi-Ice-Cream.jpg": "/MyPortfolio/static/media/Scandi-Ice-Cream.313e5c7258a22064b807.jpg",
+    "static/media/ProfilePicture.JPG": "/MyPortfolio/static/media/ProfilePicture.762be4a3a76e4097d6f8.JPG",
+    "static/media/Formulalytics.jpg": "/MyPortfolio/static/media/Formulalytics.b7df7914f55ee32a1979.jpg",
+    "static/media/f1_SoftSmall.png": "/MyPortfolio/static/media/f1_SoftSmall.e95362f98530ee00926c.png",
+    "index.html": "/MyPortfolio/index.html",
+    "static/media/GitHubLogo.svg": "/MyPortfolio/static/media/GitHubLogo.de8a9f8d60a59b0da725daafe341463e.svg",
+    "static/media/LinkedIn.svg": "/MyPortfolio/static/media/LinkedIn.1efc2587f4314935bafa1ef7c7b7fc6c.svg",
+    "static/media/Link.svg": "/MyPortfolio/static/media/Link.bbd38e35ab588a83a9be9b5374e2580f.svg",
+    "main.1a3d167e.css.map": "/MyPortfolio/static/css/main.1a3d167e.css.map",
+    "main.72d38e26.js.map": "/MyPortfolio/static/js/main.72d38e26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a3d167e.css",
+    "static/js/main.72d38e26.js"
+  ]
+}
